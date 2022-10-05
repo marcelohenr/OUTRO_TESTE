@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "native-tcp",
+    "slug": "ypc99-sdk",
+    "version": "1.0.1",
+    "owner": "marcelodosreis",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "ypc99-nativetpc-marcelodosreis",
+      "buildNumber": "2"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "teste.nativetcp.marcelodosreis"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f35ac83c-50b0-4501-b866-c4aa7054c77f"
+      }
+    }
+  }
+}
